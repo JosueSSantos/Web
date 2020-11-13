@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+justify-items:center;
 margin-toP:250px;
 
 `;
@@ -12,8 +13,9 @@ export const Img = styled.img`
   `;
 
 export const Video = styled.video`
-padding: 30px;
 align-self: center;
+margin:40px;
+margin-bottom:40px;
 `;
 export const Button = styled.button`
 margin-top:30px;
@@ -44,3 +46,47 @@ box-shadow:none;
 font-family:Arial, Helvetica, sans-serif;
 font-size:3em;
 `;
+export const TextBody = styled.h3`
+margin: 40px;
+text-align:left;
+font-size: 2em;
+text-shadow: 2px 2px 5px white;
+font-family:Arial, Helvetica, sans-serif;
+`;
+export const Top = styled.div`
+display:flex;
+justify-content:center;
+
+`;
+export const CardChilder = styled.div`
+margin:40px;
+text-align:center;
+`;
+export const Check = styled.div`
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom:90px;
+   img{
+   height:50px;
+  };
+  h3 {
+  margin:0;
+  font-size: 36px;
+   text-shadow: 2px 2px 5px white;
+ font-family:Arial, Helvetica, sans-serif;
+  }
+`;
+// export const Check = styled.div`
+
+// margin-left:30px;
+// img{
+//   height:50px;
+// }
+// h3{
+//   margin:0;
+//   font-size: 36px;
+// text-shadow: 2px 2px 5px white;
+// font-family:Arial, Helvetica, sans-serif;
+// }
+// `;
